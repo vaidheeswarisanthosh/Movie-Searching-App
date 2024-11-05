@@ -30,7 +30,7 @@ function MovieDetail() {
 
   return (
     <div className="container mx-auto p-4 w-1/2">
-      <img src={movie.Poster} alt={movie.Title} className="w-full h-64 object-cover mb-4 mt-6" />
+      <img src={movie.Poster} alt={movie.Title} className="w-full h-96 object-cover mb-4 mt-6" />
       <h1 className="text-2xl font-bold text-gray-500 mt-6">{movie.Title}</h1>
       <p className='text-purple-800 mt-6'>{movie.Year} | {movie.Genre}</p>
       <p className='text-sm mt-6 text-gray-600'>{movie.Plot}</p>
