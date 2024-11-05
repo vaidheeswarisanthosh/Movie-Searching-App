@@ -60,7 +60,7 @@ function SearchPage() {
         {movies.map((movie) => (
           <Link to={`/movie/${movie.imdbID}`} key={movie.imdbID}>
             <div className="bg-white border-2 border-gray-200 rounded-lg p-4 mt-10 space-x-4">
-              <img src={movie.Poster} alt={movie.Title} className="w-full h-56 object-cover" />
+              <img src={movie.Poster} alt={movie.Title} className="w-full h-64 object-cover" />
               <h3 className="text-md mt-2 text-purple-500">{movie.Title}</h3>
               <p className='text-gray-600'>{movie.Year}</p>
             </div>
